@@ -1696,7 +1696,9 @@ describe('virtualMachineSettings:', () => {
                 settings.secrets = [
                     {
                         keyVault: {
-                            name: 'test-keyvault'
+                            name: 'test-keyvault',
+                            resourceGroupName: 'test-rg',
+                            subscriptionId: '00000000-0000-1000-A000-000000000000'
                         },
                         certificates: [
                             {
