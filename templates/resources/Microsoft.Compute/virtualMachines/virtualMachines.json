@@ -12,7 +12,7 @@
             "type": "securestring"
         },
         "secrets": {
-            "type": "secureObject"
+            "type": "object"
         }
     },
     "variables": {

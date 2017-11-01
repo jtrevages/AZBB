@@ -9,7 +9,7 @@
       "type": "array"
     },
     "secrets": {
-      "type": "secureObject"
+      "type": "object"
     }
   },
   "variables": {

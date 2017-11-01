@@ -9,7 +9,7 @@
             }
         },
         "extensionProtectedSettings": {
-            "type": "securestring",
+            "type": "string",
             "metadata": {
                 "description": "ProtectedSettings for extension"
             }
