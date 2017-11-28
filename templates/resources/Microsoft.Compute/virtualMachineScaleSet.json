@@ -51,9 +51,6 @@
                         }
                     ],
                     "outputs": {}
-                },
-                "debugSetting": {
-                    "detailLevel": "requestContent, responseContent"
                 }
             }    
         }

@@ -345,10 +345,7 @@
             "secrets": {
               "value": "[parameters('secrets')]"
             }
-          },
-          "debugSetting": {
-            "detailLevel": "requestContent, responseContent"
-         } 
+          } 
         }
       },
       {
