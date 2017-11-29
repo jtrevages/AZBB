@@ -43,7 +43,8 @@ const VIRTUALMACHINE_SETTINGS_DEFAULTS_WINDOWS = {
                 certificateStore: 'My'
             }
         }
-    ]
+    ],
+    usePlan: false
 };
 
 const VIRTUALMACHINE_SETTINGS_DEFAULTS_LINUX = {
@@ -79,7 +80,8 @@ const VIRTUALMACHINE_SETTINGS_DEFAULTS_LINUX = {
     loadBalancerSettings: {},
     scaleSetSettings: {},
     tags: {},
-    secrets: []
+    secrets: [],
+    usePlan: false
 };
 
 exports.defaultWindowsSettings = VIRTUALMACHINE_SETTINGS_DEFAULTS_WINDOWS;
